@@ -12,11 +12,10 @@ public class Worker {
     private String name;
     private WorkerLevel level;
     private Double baseSalary;
-
     private Department department;
     private List<HourContract> contracts = new ArrayList();
 
-    public Worker(String name, WorkerLevel level, Double baseSalary) {
+    public Worker(String name, WorkerLevel level, Double baseSalary, Department department) {
         this.name = name;
         this.level = level;
         this.baseSalary = baseSalary;
