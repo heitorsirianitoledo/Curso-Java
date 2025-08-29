@@ -15,7 +15,12 @@ public class Worker {
     private Department department;
     private List<HourContract> contracts = new ArrayList();
 
+    public Worker(){
+        
+    }
+
     public Worker(String name, WorkerLevel level, Double baseSalary, Department department) {
+        super();
         this.name = name;
         this.level = level;
         this.baseSalary = baseSalary;
